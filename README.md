@@ -10,4 +10,6 @@ Import this repository with the **Other** framework preset and the repository ro
 
 Local verification reports and screenshots remain in `artifacts/`, excluded from Git and CLI deployment. No credentials or environment variables are needed by the site.
 
-Canonical and Open Graph URL metadata should be added after the production URL is confirmed. A social preview image has not been selected.
+Production site: https://retutal-sys.vercel.app/
+
+Canonical and Open Graph URL metadata use this production URL. A social preview image has not been selected.
