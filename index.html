@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brix Bryan A. Retutal | Computer Engineering Portfolio</title>
+    <meta name="description" content="Portfolio of Brix Bryan A. Retutal, a Computer Engineering student focused on embedded systems, electronics, PCB design, hardware-software integration, and full-stack development.">
+    <meta name="author" content="Brix Bryan A. Retutal">
+    <meta name="theme-color" content="#090607">
+    <meta property="og:title" content="Brix Bryan A. Retutal | Computer Engineering Portfolio">
+    <meta property="og:description" content="Computer Engineering student focused on embedded systems, electronics, PCB design, hardware-software integration, and full-stack development.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grid" aria-hidden="true"></div>
+    <div class="ambient ambient1" aria-hidden="true"></div>
+    <div class="ambient ambient2" aria-hidden="true"></div>
+    <canvas class="particle-network" aria-hidden="true"></canvas>
+    <div class="boot-screen" aria-hidden="true" hidden>
+        <div class="boot-terminal">
+            <p class="boot-heading">RETUTAL.SYS // SYSTEM INITIALIZATION</p>
+            <div class="boot-lines">
+                <p>&gt; Loading Computer Engineering profile...</p>
+                <p>&gt; Embedded systems module ........ READY</p>
+                <p>&gt; Electronics module ............. READY</p>
+                <p>&gt; PCB design module .............. READY</p>
+                <p>&gt; Full-stack systems ............. READY</p>
+                <p>&gt; Project archive ................ READY</p>
+                <p>&gt; Identity verification .......... COMPLETE</p>
+            </div>
+            <div class="boot-progress"><span></span></div>
+            <p class="boot-ready">SYSTEM READY</p>
+            <p class="boot-access">ACCESS GRANTED</p>
+            <p class="boot-welcome">— WELCOME TO BRIX’S PORTFOLIO</p>
+            <p class="boot-hint">ESC / ENTER / SPACE / TAP TO SKIP <span class="terminal-caret">▌</span></p>
+        </div>
+    </div>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="#home">RETUTAL.SYS</a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">MENU <span aria-hidden="true">☰</span></button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" aria-current="location">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#journey">JOURNEY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" tabindex="-1">
+    <!-- HERO -->
+    <section class="hero container" id="home" aria-labelledby="hero-name">
+        <svg class="hero-circuits" viewBox="0 0 1200 700" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <g class="circuit-paths" fill="none" pathLength="1">
+                <path pathLength="1" d="M0 110H110L155 155H430V225H530"/>
+                <path pathLength="1" d="M1200 90H1070V160H930L890 200H800"/>
+                <path pathLength="1" d="M1200 420H1080L1030 370H980V280H900"/>
+                <path pathLength="1" d="M0 590H160V530H300L340 490H430"/>
+                <path pathLength="1" d="M600 0V80H700L740 120V200"/>
+                <path pathLength="1" d="M1200 630H1000V550H920L880 510"/>
+                <path pathLength="1" d="M0 330H80V280H210V230"/>
+                <path pathLength="1" d="M550 700V610H640L680 570H760"/>
+            </g>
+            <g class="circuit-nodes"><circle cx="530" cy="225" r="3"/><circle cx="800" cy="200" r="3"/><circle cx="900" cy="280" r="3"/><circle cx="430" cy="490" r="3"/><circle cx="740" cy="200" r="3"/><circle cx="880" cy="510" r="3"/><circle cx="210" cy="230" r="3"/><circle cx="760" cy="570" r="3"/></g>
+            <g class="circuit-echoes" fill="none"><circle cx="800" cy="200" r="4"/><circle cx="430" cy="490" r="4"/><circle cx="880" cy="510" r="4"/></g>
+        </svg>
+
+        <div class="hero-left">
+
+            <div class="status">
+                ● SYSTEM ACTIVE • PORTFOLIO V3.7
+            </div>
+
+            <h1 id="hero-name"><span class="hero-title">BRIX BRYAN</span><span class="hero-subtitle">A. RETUTAL</span></h1>
+
+            <div class="role">
+                3RD YEAR COMPUTER ENGINEERING STUDENT
+            </div>
+            <div class="typewriter" aria-hidden="true"><span class="typewriter-output">Computer Engineering Student</span><span class="terminal-caret">▌</span></div>
+
+            <div class="specialties">
+                <span>EMBEDDED SYSTEMS</span>
+                <span>ELECTRONICS</span>
+                <span>PCB DESIGN</span>
+                <span>WEB DEVELOPMENT</span>
+            </div>
+
+            <p class="description">Hardware-first Computer Engineering student at Cagayan State University, focused on embedded systems, electronics, PCB design, and hardware-software integration, with full-stack web development and CAD / 3D printing as additional capabilities.</p>
+
+            <div class="hero-buttons">
+
+                <a class="btn-primary" href="#projects">Explore Projects<span class="cta-arrow" aria-hidden="true">↗</span></a>
+
+                <a class="btn-secondary" href="#about">About Me<span class="cta-arrow" aria-hidden="true">↗</span></a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+            <div class="portrait-tilt">
+            <div class="portrait-glow" aria-hidden="true"></div>
+
+            <div class="outer-ring" aria-hidden="true"></div>
+            <div class="middle-ring" aria-hidden="true"></div>
+            <div class="orbit-ring orbit-a" aria-hidden="true"></div>
+            <div class="orbit-ring orbit-b" aria-hidden="true"></div>
+
+            <div class="profile-container">
+
+                <img
+                    src="assets/images/profile.jpg"
+                    class="profile-image"
+                    alt="Portrait of Brix Bryan A. Retutal" width="380" height="380" fetchpriority="high">
+
+</div>
+            <span class="portrait-label label-top" aria-hidden="true">// IDENTITY MODULE</span>
+            <span class="portrait-label label-bottom" aria-hidden="true">HARDWARE / SOFTWARE</span>
+            <div class="floating-badges" aria-hidden="true"><span>ARDUINO</span><span>KICAD</span><span>PCB</span><span>REACT</span></div>
+            </div>
+
+        </div>
+
+        <a class="scroll-indicator" href="#about" aria-label="Scroll to About Me"><span aria-hidden="true">⌄</span></a>
+    </section>
+    <!-- ABOUT SECTION -->
+
+<section class="about container" id="about" aria-labelledby="about-heading">
+<div class="section-header"><p>// IDENTITY MODULE</p><h2 id="about-heading">About Me</h2><span>A brief system diagnostic on who I am and what drives me.</span></div>
+<div class="about-card">
+<p>Third-year Computer Engineering student at Cagayan State University with a hardware-first focus on embedded systems, electronics, PCB design, and hardware-software integration.</p>
+<p>Full-stack web development is a secondary capability.</p>
+<button class="about-toggle" type="button" aria-expanded="true" aria-controls="about-details" hidden>SHOW LESS ↑</button>
+<div class="about-details" id="about-details"><div class="about-details-inner">
+<div class="about-extended"><span class="extended-label">// EXTENDED PROFILE</span>
+<p>I also have hands-on experience in 3D CAD.</p>
+<p>I develop practical software and hardware solutions using technologies such as React, Next.js, Firebase, Supabase, Arduino, NI Multisim, and KiCad.</p>
+<p>I served as Team Leader and primary Full-Stack Developer for G.A.B.A.I., my capstone project, handling major parts of the system from planning and development to authentication, security, testing, and production deployment.</p>
+<p>Beyond software, I build Arduino-based commissioned and hobby projects, design and physically construct electronic circuits and PCBs, and continue developing my Autodesk Fusion and 3D-printing skills.</p>
+<div class="about-tags"><span>Embedded Systems</span><span>Electronics</span><span>PCB Design</span><span>Hardware-Software Integration</span><span>Full-Stack Web</span><span>CAD / 3D Printing</span></div>
+</div></div></div>
+</div></section>
+<!-- IDENTITY MODULE -->
+
+<section class="identity container" id="identity" aria-labelledby="identity-heading">
+<div class="section-header"><p>// CORE MODULES</p><h2 id="identity-heading">Identity Matrix</h2><span>Current technical specialization and development focus.</span></div><div class="identity-grid"><div class="identity-card"><h3>Embedded Systems</h3><p>Arduino-based commissioned and hobby projects, sensor integration, automated hardware responses, and GSM / SMS notification.</p></div>
+<div class="identity-card"><h3>Electronics</h3><p>Circuit design and NI Multisim simulation, followed by physical construction and testing.</p></div>
+<div class="identity-card"><h3>PCB Design</h3><p>KiCad schematic design, PCB layout and routing, fabrication, assembly, and physical testing.</p></div>
+<div class="identity-card"><h3>Programming</h3><p>JavaScript and TypeScript for practical web applications and system workflows.</p></div>
+<div class="identity-card"><h3>Web Development</h3><p>Full-stack work with React, Next.js, Firebase, Supabase, and PostgreSQL, alongside HTML, CSS, and UI/UX implementation.</p></div>
+<div class="identity-card"><h3>System Design</h3><p>Hardware-software integration, authentication, authorization, private file-access workflows, testing, and deployment.</p></div></div>
+</section>
+<!-- TECHNICAL ARSENAL -->
+
+<section class="arsenal container" id="skills" aria-labelledby="skills-heading">
+<div class="section-header"><p>// SKILL LAB</p><h2 id="skills-heading">Technical Arsenal</h2><span>Self-assessed working levels; developing skills remain an active learning focus.</span></div><div class="arsenal-grid"><div class="arsenal-card"><h3>HARDWARE / ELECTRONICS</h3><dl class="skill-list"><div class="skill"><dt>Arduino Development</dt><dd>Intermediate</dd></div><div class="skill"><dt>Sensor Integration</dt><dd>Intermediate</dd></div><div class="skill"><dt>Circuit Design</dt><dd>Intermediate</dd></div><div class="skill"><dt>NI Multisim</dt><dd>Intermediate</dd></div></dl></div>
+<div class="arsenal-card"><h3>PCB / CAD</h3><dl class="skill-list"><div class="skill"><dt>KiCad</dt><dd>Developing / Intermediate</dd></div><div class="skill"><dt>PCB Layout and Routing</dt><dd>Developing / Intermediate</dd></div><div class="skill"><dt>Autodesk Fusion</dt><dd>Developing / Intermediate</dd></div><div class="skill"><dt>3D Printing / Design for Printing</dt><dd>Developing / Intermediate</dd></div></dl></div>
+<div class="arsenal-card"><h3>WEB / FRONTEND</h3><dl class="skill-list"><div class="skill"><dt>React.js</dt><dd>Intermediate</dd></div><div class="skill"><dt>JavaScript</dt><dd>Intermediate</dd></div><div class="skill"><dt>TypeScript</dt><dd>Developing / Intermediate</dd></div><div class="skill"><dt>Next.js</dt><dd>Developing / Intermediate</dd></div><div class="skill"><dt>HTML/CSS</dt><dd>Intermediate</dd></div></dl></div>
+<div class="arsenal-card"><h3>BACKEND / DATABASE</h3><dl class="skill-list"><div class="skill"><dt>Firebase Authentication</dt><dd>Intermediate</dd></div><div class="skill"><dt>Cloud Firestore</dt><dd>Intermediate</dd></div><div class="skill"><dt>Firestore Security Rules</dt><dd>Intermediate</dd></div><div class="skill"><dt>Supabase</dt><dd>Developing / Intermediate</dd></div><div class="skill"><dt>PostgreSQL</dt><dd>Developing</dd></div></dl></div>
+<div class="arsenal-card"><h3>STORAGE / WORKFLOWS</h3><dl class="skill-list"><div class="skill"><dt>Supabase Storage</dt><dd>Intermediate</dd></div><div class="skill"><dt>Supabase Edge Functions</dt><dd>Developing / Intermediate</dd></div><div class="skill"><dt>Git/GitHub</dt><dd>Intermediate</dd></div></dl></div>
+<div class="arsenal-card"><h3>IMPLEMENTATION / TESTING</h3><dl class="skill-list"><div class="skill"><dt>Tailwind CSS</dt><dd>Intermediate</dd></div><div class="skill"><dt>Testing and Debugging</dt><dd>Intermediate</dd></div><div class="skill"><dt>UI/UX Implementation</dt><dd>Intermediate</dd></div><div class="skill"><dt>Prompt Engineering / AI-assisted Development</dt><dd>Intermediate</dd></div></dl></div></div>
+</section>
+<!-- ENGINEERING OUTPUT -->
+
+<!-- ENGINEERING OUTPUT -->
+
+<section class="projects container" id="projects" aria-labelledby="projects-heading">
+<div class="section-header"><p>// PROJECT ARCHIVE</p><h2 id="projects-heading">Engineering Output</h2><span>Selected hardware, embedded systems, and full-stack web projects.</span></div>
+<div class="project-filter" role="group" aria-label="Filter projects"><button type="button" data-filter="all" aria-pressed="true" class="active">ALL</button><button type="button" data-filter="embedded" aria-pressed="false">EMBEDDED SYSTEMS</button><button type="button" data-filter="pcb" aria-pressed="false">PCB DESIGN</button><button type="button" data-filter="electronics" aria-pressed="false">ELECTRONICS</button><button type="button" data-filter="web" aria-pressed="false">FULL-STACK WEB</button></div>
+<div class="projects-grid"><article class="project-card" data-category="web">
+<div class="project-top"><div class="project-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18m-13 5-2 2 2 2m8-4 2 2-2 2m-3-5-2 6"/></svg></div><div class="project-type">FULL-STACK WEB DEVELOPMENT</div></div>
+<h3>G.A.B.A.I.</h3><p class="project-subtitle">Guidance and Academic Bridge through Academic Interaction</p>
+<p class="project-summary">Capstone work spanning authentication, student approval, tutoring, project collaboration, portfolios, and a student directory.</p><div class="project-tags"><span>React.js</span><span>Firebase</span><span>Supabase</span></div>
+<div class="project-details" id="project-details-1"><p><strong>Status:</strong> Capstone project</p><p><strong>My role:</strong> Team Leader and Primary Full-Stack Developer</p><p>My responsibilities included notifications, administrative tools, authorization/security, private file-access workflows, testing, and deployment.</p><h4>Technologies / work</h4><ul><li>React.js</li><li>JavaScript / JSX</li><li>React Router</li><li>Tailwind CSS</li><li>Vite</li><li>Firebase Authentication</li><li>Cloud Firestore</li><li>Firestore Security Rules</li><li>Supabase Storage</li><li>Supabase Edge Functions</li><li>Firebase Hosting</li><li>Firebase Emulator Suite</li><li>Automated testing</li></ul></div>
+<button class="expand" type="button" aria-expanded="true" aria-controls="project-details-1">COLLAPSE DETAILS ↑</button></article>
+<article class="project-card" data-category="web">
+<div class="project-top"><div class="project-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18m-13 5-2 2 2 2m8-4 2 2-2 2m-3-5-2 6"/></svg></div><div class="project-type">FULL-STACK WEB DEVELOPMENT</div></div>
+<h3>MS Helper</h3><p class="project-subtitle">Ministerial Servant Helper</p>
+<p class="project-summary">Full-stack web project using Next.js 16, React 19, TypeScript, Supabase, and PostgreSQL.</p><div class="project-tags"><span>Next.js</span><span>TypeScript</span><span>Supabase</span></div>
+<div class="project-details" id="project-details-2"><h4>Technologies / work</h4><ul><li>Next.js 16</li><li>React 19</li><li>TypeScript</li><li>Tailwind CSS v4</li><li>shadcn/ui</li><li>Supabase</li><li>PostgreSQL</li><li>Supabase Auth</li><li>Row Level Security</li><li>Leaflet</li><li>React Leaflet</li><li>OpenStreetMap</li><li>Recharts</li><li>Vercel</li></ul></div>
+<button class="expand" type="button" aria-expanded="true" aria-controls="project-details-2">COLLAPSE DETAILS ↑</button></article>
+<article class="project-card" data-category="embedded">
+<div class="project-top"><div class="project-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3S5 11 5 15a7 7 0 0 0 14 0c0-4-7-12-7-12ZM9 16a3 3 0 0 0 3 3"/></svg></div><div class="project-type">EMBEDDED SYSTEMS</div></div>
+<h3>AirCare</h3><p class="project-subtitle">Indoor Environmental Monitoring and Automated-Response System</p>
+<p class="project-summary">Indoor environmental monitoring with automated hardware responses.</p><div class="project-tags"><span>Arduino Uno</span><span>MQ-135</span><span>DHT11</span></div>
+<div class="project-details" id="project-details-3"><h4>Technologies / work</h4><ul><li>Arduino Uno</li><li>MQ-135</li><li>DHT11</li><li>I²C LCD</li><li>Relay</li><li>Mist maker</li><li>Buzzer</li><li>LED indicators</li><li>Transistor driver circuit</li></ul></div>
+<button class="expand" type="button" aria-expanded="true" aria-controls="project-details-3">COLLAPSE DETAILS ↑</button></article>
+<article class="project-card" data-category="pcb electronics">
+<div class="project-top"><div class="project-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 9h6v6H9ZM9 2v3m6-3v3M9 19v3m6-3v3M2 9h3m-3 6h3m14-6h3m-3 6h3"/></svg></div><div class="project-type">PCB DESIGN / ELECTRONICS</div></div>
+<h3>PIC16F877A Development Board</h3>
+<p class="project-summary">PIC16F877A development board with KiCad schematic design and PCB layout, followed by fabrication, assembly, and physical testing.</p><div class="project-tags"><span>KiCad</span><span>PIC16F877A</span></div>
+<div class="project-details" id="project-details-4"><p><strong>Status:</strong> Designed, fabricated, assembled, and tested</p><h4>Technologies / work</h4><ul><li>KiCad</li><li>PIC16F877A</li><li>Schematic design</li><li>PCB layout</li><li>Fabrication</li><li>Assembly</li><li>Physical testing</li></ul></div>
+<button class="expand" type="button" aria-expanded="true" aria-controls="project-details-4">COLLAPSE DETAILS ↑</button></article>
+<article class="project-card" data-category="electronics">
+<div class="project-top"><div class="project-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg></div><div class="project-type">ELECTRONICS</div></div>
+<h3>Triple-Output Power Supply</h3>
+<p class="project-summary">Power supply simulated in NI Multisim, physically constructed, and physically tested.</p><div class="project-tags"><span>NI Multisim</span><span>Circuit simulation</span></div>
+<div class="project-details" id="project-details-5"><p><strong>Status:</strong> Simulated and physically built</p><h4>Technologies / work</h4><ul><li>NI Multisim</li><li>Circuit simulation</li><li>Physical construction</li><li>Physical testing</li></ul></div>
+<button class="expand" type="button" aria-expanded="true" aria-controls="project-details-5">COLLAPSE DETAILS ↑</button></article>
+<article class="project-card" data-category="embedded">
+<div class="project-top"><div class="project-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M8 8a6 6 0 0 0 0 8m8-8a6 6 0 0 1 0 8M5 5a10 10 0 0 0 0 14M19 5a10 10 0 0 1 0 14"/></svg></div><div class="project-type">EMBEDDED SYSTEMS</div></div>
+<h3>Real-Time Fishpond Feeder with SMS Notification</h3>
+<p class="project-summary">Arduino-based automated feeding with GSM / SMS notification.</p><div class="project-tags"><span>Arduino</span><span>GSM / SMS</span></div>
+<div class="project-details" id="project-details-6"><p><strong>Status:</strong> Completed</p><h4>Technologies / work</h4><ul><li>Arduino</li><li>Automated feeding</li><li>GSM / SMS notification</li></ul></div>
+<button class="expand" type="button" aria-expanded="true" aria-controls="project-details-6">COLLAPSE DETAILS ↑</button></article></div>
+</section>
+
+    <section class="journey container" id="journey" aria-labelledby="journey-heading">
+<div class="section-header"><p>// DEVELOPMENT LOG</p><h2 id="journey-heading">Journey Log</h2><span>Hardware foundations, practical projects, and continued development. Periods describe phases rather than exact dates.</span></div><div class="timeline" aria-label="Verified development milestones"><article class="timeline-card" style="--timeline-row:1"><p class="timeline-period">Early Computer Engineering studies</p><h3>Built foundations in electronics and embedded systems</h3><p class="timeline-description">Arduino, MQ-135, DHT11, relays, buzzers, LEDs, sensor integration, electronic circuits, and embedded prototyping.</p></article>
+<article class="timeline-card" style="--timeline-row:2"><p class="timeline-period">Hardware and electronics development phase</p><h3>Moved into circuit simulation, PCB design, and physical hardware construction</h3><p class="timeline-description">Simulated the triple-output power supply in NI Multisim and physically built and tested it. Designed the PIC16F877A development board in KiCad, then fabricated, assembled, and tested it.</p></article>
+<article class="timeline-card" style="--timeline-row:3"><p class="timeline-period">Software development phase</p><h3>Expanded into web development</h3><p class="timeline-description">Worked with HTML, CSS, JavaScript, React.js, Vite, Tailwind CSS, Firebase Authentication, Cloud Firestore, React Router, and Vercel.</p></article>
+<article class="timeline-card" style="--timeline-row:4"><p class="timeline-period">Capstone development phase</p><h3>Led the development of G.A.B.A.I.</h3><p class="timeline-description">Served as Team Leader and primary Full-Stack Developer, working on authentication, student approval, tutoring, project collaboration, portfolios, the student directory, notifications, administrative tools, authorization/security, private file-access workflows, testing, and deployment.</p></article>
+<article class="timeline-card" style="--timeline-row:5"><p class="timeline-period">G.A.B.A.I. refinement and production phase</p><h3>Strengthened security, testing, and deployment skills</h3><p class="timeline-description">Focused on Firebase Emulator Suite, Firestore Security Rules, Firebase JWT, Supabase Edge Functions, role-based access control, automated testing, Git/GitHub, and Firebase Hosting.</p></article>
+<article class="timeline-card" style="--timeline-row:6"><p class="timeline-period">Recent development phase</p><h3>Expanded into modern TypeScript full-stack development</h3><p class="timeline-description">Worked with Next.js, React 19, TypeScript, Tailwind CSS v4, shadcn/ui, Supabase, PostgreSQL, Leaflet, OpenStreetMap, Recharts, and Vercel.</p></article>
+<article class="timeline-card" style="--timeline-row:7"><p class="timeline-period">Current development phase</p><h3>Expanded into CAD and 3D printing</h3><p class="timeline-description">Developing Autodesk Fusion, CAD, 3D modeling, and design-for-3D-printing skills, with physical printed outputs.</p></article></div>
+</section>
+    <section class="tools container" id="tools" aria-labelledby="tools-heading">
+<div class="section-header"><p>// TOOL INDEX</p><h2 id="tools-heading">Tools &amp; Technologies</h2><span>Representative tools and platforms behind my hardware and software work.</span></div><div class="tools-grid"><div class="tool-group"><h3>Hardware / Embedded</h3><ul class="technology-chips"><li>Arduino</li><li>PIC16F877A</li><li>Sensor integration</li></ul></div>
+<div class="tool-group"><h3>Electronics / PCB</h3><ul class="technology-chips"><li>NI Multisim</li><li>KiCad</li></ul></div>
+<div class="tool-group"><h3>Web / Frontend</h3><ul class="technology-chips"><li>HTML / CSS</li><li>JavaScript</li><li>TypeScript</li><li>React.js</li><li>Next.js</li><li>Tailwind CSS</li></ul></div>
+<div class="tool-group"><h3>Backend / Database</h3><ul class="technology-chips"><li>Firebase Authentication</li><li>Cloud Firestore</li><li>Supabase</li><li>PostgreSQL</li></ul></div>
+<div class="tool-group"><h3>Development Tools</h3><ul class="technology-chips"><li>Git / GitHub</li><li>Vite</li><li>Firebase Emulator Suite</li><li>Firebase Hosting</li><li>Vercel</li></ul></div>
+<div class="tool-group"><h3>CAD / 3D</h3><ul class="technology-chips"><li>Autodesk Fusion</li><li>3D printing</li></ul></div></div>
+</section>
+    <section class="contact container" id="contact" aria-labelledby="contact-heading">
+<div class="section-header"><p>// OPEN CHANNEL</p><h2 id="contact-heading">Establish Connection</h2></div>
+<div class="contact-terminal">
+<div class="terminal-intro"><span class="terminal-label">// COMMUNICATION INTERFACE</span><p>Open to collaboration, technical projects, and engineering opportunities.</p></div>
+<div class="terminal-channels"><div class="contact-links">
+<a class="contact-row" href="mailto:brixbryabretutal@gmail.com"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></span><span class="contact-row-content"><span class="contact-row-heading"><strong>Email</strong><span class="contact-action">Send an email<span aria-hidden="true"> →</span></span></span><span class="contact-destination">brixbryabretutal@gmail.com</span></span></a>
+<a class="contact-row" href="https://github.com/Brx-prog" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 5-6 7 6 7m8-14 6 7-6 7m-3-15-2 16"/></svg></span><span class="contact-row-content"><span class="contact-row-heading"><strong>GitHub</strong><span class="contact-action">View profile<span aria-hidden="true"> ↗</span></span></span><span class="contact-destination">github.com/Brx-prog</span></span></a>
+<a class="contact-row" href="https://www.facebook.com/brixbryanretutal200619" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M13 21V9a3 3 0 0 1 3-3h2m-8 6h7"/></svg></span><span class="contact-row-content"><span class="contact-row-heading"><strong>Facebook</strong><span class="contact-action">View profile<span aria-hidden="true"> ↗</span></span></span><span class="contact-destination">facebook.com/brixbryanretutal200619</span></span></a>
+</div>
+<div class="channel-config"><span class="terminal-label">SYSTEM CHANNELS · STATIC CONFIGURATION</span><dl><div><dt>EMAIL</dt><dd>ENABLED</dd></div><div><dt>GITHUB</dt><dd>LINKED</dd></div><div><dt>FACEBOOK</dt><dd>LINKED</dd></div></dl></div>
+</div></div></section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content container">
+            <div class="footer-identity"><a class="logo" href="#home">RETUTAL.SYS</a><p>3rd Year Computer Engineering Student</p></div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+            </nav>
+            <div class="footer-social" aria-label="Contact profiles"><a href="mailto:brixbryabretutal@gmail.com">Email</a><a href="https://github.com/Brx-prog" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.facebook.com/brixbryanretutal200619" target="_blank" rel="noopener noreferrer">Facebook</a></div>
+<p class="copyright">© 2026 Brix Bryan A. Retutal</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+artifacts/**
+.git/**
+.vercel/**
+.vscode/**
+.idea/**
+node_modules/**
+.env*
+*.log
+*.tmp
+*.swp
+*.swo
+README.md
+.gitignore
+.DS_Store
+Thumbs.db
+Desktop.ini
